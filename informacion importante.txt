@@ -1,0 +1,21 @@
+Un ejemplo muy practico de una base de datos de un gym, se lo ha utilizado para la elaboracion de un sistema distribuido a manera didactica,
+solo para ver el funcionamiento de una replicacion tipo mezcla de sqlserver. 
+
+se tuliza como servidor xampp 
+php 7 
+se hace la respectiva configuracion de php 7, en este mismo repositori se encontrarn los archivos
+php_pdo_sqlsrv_7_nts_x64.dll
+php_pdo_sqlsrv_7_nts_x86.dll
+php_pdo_sqlsrv_7_ts.dll
+php_pdo_sqlsrv_7_ts_x86.dll
+php_pdo_sqlsrv_7_ts_64.dll que se los debe poner en xamp/php/ext. 
+y oner en el .ini su respectiva extension
+
+todo esto se debe ya que se hara conexion a la bd sqlserver por medio de pdo, y la conexion pdo sirve para php 7 en adelante, en versiones
+anteriores ya esta descontinuada. 
+
+el sql de la bd de datos la dejare en este mismo repositorio. 
+
+cualquier duda o lo que necesiten, pueden contactarme al correo jotaefe006@gmail.com, en lo mas pronto posible respondere. 
+
+publicado el 31/mayo/2017 
